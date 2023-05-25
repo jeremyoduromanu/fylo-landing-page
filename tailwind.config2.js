@@ -1,15 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.html"],
+  content: [],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
-    extend: {
-      fontFamily : {
-        'bodyFont': ['Open Sans', sans-serif],
-        'otherFont': ['Raleway', sans-serif]
-      }
-    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
