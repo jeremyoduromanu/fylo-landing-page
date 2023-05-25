@@ -4,7 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Raleway', sans-serif;
-    src: url();
+
+
+
+.default-font{
+    @apply font-raleway font-medium;
 }
+

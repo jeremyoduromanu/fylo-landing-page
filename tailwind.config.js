@@ -1,15 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.html"],
+  content: ["./public/**/*.{html,js}"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
-    extend: {
-      fontFamily : {
-        'bodyFont': ['Open Sans', sans-serif],
-        'otherFont': ['Raleway', sans-serif]
-      }
-    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
@@ -164,7 +158,13 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
-    }),
+      verydarkblue: '#070439',
+      desaturatedblue: 'hsl(238, 22%, 44%)',
+      brightblue: 'hsl(224, 93%, 58%)',
+      moderatecyan: 'hsl(170, 45%, 43%)',
+      lightgrayishblue: 'hsl(240, 75%, 98%)',
+      lightgray: 'hsl(0, 0%, 75%)',
+        }),
     columns: {
       auto: 'auto',
       1: '1',
@@ -333,6 +333,8 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      opensans: ['Open Sans'],
+      raleway: ['Raleway']
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
