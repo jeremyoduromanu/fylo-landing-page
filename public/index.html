@@ -20,7 +20,6 @@
   </style>
 </head>   
 <body class="font-opensans bg-lightgrayishblue">
-  <section>
   <header class="w-full flex justify-between px-[5%] h-[10vh] items-center">
     <div class="logo">
       <img src="./images/logo.svg" alt="Fylo" class="h-5">
@@ -31,17 +30,32 @@
       <a href="#" class="links">Sign In</a>
     </nav>
   </header>
-</section>
+  <section class="hero pt-[4rem] relative  flex flex-col-reverse lg:flex justify-center p-[5%]">
+    <div class="hero-text lg:w-2/4">
+    <h1 class="font-raleway text-center text-2xl font-bold leading-[40px]">All your files in one secure location, accessible anywhere.</h1>
+    <p class="font-opensans text-lg mb-3">Fylo stores your most important files in one secure location. 
+      Access them wherever you need, share and collaborate with friends, 
+      family, and co-workers.</p>
+      <div class="hero-form lg:flex">
+      <form  class="email form">
+        <input type="text" aria-label="Email" placeholder="Enter your email" class="email-input h-10 m-3 focus:outline-none py-4 px-7 w-full">
+      </form>
+      <button class="get-started w-full px-2 py-4 bg-brightblue text-lightgrayishblue rounded-md">Get Started</button>
+    </div>
+    </div>
+    <div class="hero-img">
+      <img src="./images/illustration-1.svg" alt="image" class="font-opensans w-full mb-10 h-[50%]">
+    </div>
+  </section>
+
 <!-- 
   Features
   Team
   Sign In
 
-  All your files in one secure location, accessible anywhere.
+  
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+  
 
   Get Started
 
