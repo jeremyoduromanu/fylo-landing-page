@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f8a448cfb9.js" crossorigin="anonymous"></script>
 
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -30,21 +31,21 @@
       <a href="#" class="links">Sign In</a>
     </nav>
   </header>
-  <section class="hero py-[4rem] relative  flex flex-col-reverse lg:flex justify-center p-[5%]">
-    <div class="hero-text lg:w-2/4">
-    <h1 class="font-raleway text-center text-2xl font-bold leading-[40px]">All your files in one secure location, accessible anywhere.</h1>
+  <section class="hero py-[4rem] relative md:h-full md:items-center  flex flex-col-reverse lg:flex-row md:justify-start lg:gap-10 justify-center p-[5%]">
+    <div class="hero-text md:w-3/5 md:pr-[10%]">
+    <h1 class="font-raleway text-center lg:text-left lg:text-left text-2xl md:text-4xl md:mb-5 font-bold leading-[40px]">All your files in one secure location, accessible anywhere.</h1>
     <p class="font-opensans text-lg mb-3">Fylo stores your most important files in one secure location. 
       Access them wherever you need, share and collaborate with friends, 
       family, and co-workers.</p>
-      <div class="hero-form lg:flex">
-      <form  class="email form mb-5">
-        <input type="text" aria-label="Email" placeholder="Enter your email" class="email-input h-10 w-full p-6 focus:outline-none  w-full">
+      <div class="hero-form lg:flex md:gap-5 flex-1 items-center">
+      <form  class="email form mb-5 md:mb-0 md:w-[60%] ">
+        <input type="text" aria-label="Email" placeholder="Enter your email" class="email-input  md:p-4 w-full  p-6 focus:outline-none  w-full">
       </form>
-      <button class="get-started w-full px-2 py-4 bg-brightblue text-lightgrayishblue rounded-md">Get Started</button>
+      <button class="get-started md:w-[40%] font-opensans  py-4 bg-brightblue text-lightgrayishblue rounded-md   md:p-4">Get Started</button>
     </div>
     </div>
-    <div class="hero-img">
-      <img src="./images/illustration-1.svg" alt="image" class="font-opensans w-full mb-10 h-[50%]">
+    <div class="hero-img lg:w-[40%]">
+      <img src="./images/illustration-1.svg" alt="image" class="font-opensans w-full mb-10 h-[50%] md:h-4/5">
     </div>
   </section>
   <section class="secondpage py-4 px-[5%]" id="secondpage">
@@ -103,32 +104,34 @@
     <button class="w-4/5 mx-auto grid place-items-center text-white font-opensans p-3 bg-brightblue text-sm font-opensans">Get Started For Free</button>
   </section>
   <section class="footer bg-verydarkblue p-[4rem] grid gap-5">
-    <div class="logo">
+    <div class="logo mb-6" >
       <img src="./images/logo.svg" alt="">
     </div>
     <div class="contact-info">
-      <div class="phone">
-        <img src="./images/icon-phone.svg" alt="">
-        <p>Phone: +1-543-123-4567</p>
+      <div class="phone flex mb-5">
+        <img src="./images/icon-phone.svg" alt="" class="pr-4">
+        <p class="font-raleway text-white">Phone: +1-543-123-4567</p>
       </div>
-      <div class="email">
-        <img src="./images/icon-email.svg" alt="email">
-        <p>example@fylo.com</p>
+      <div class="email flex">
+        <img src="./images/icon-email.svg" alt="email" class="pr-4">
+        <p class="text-white font-raleway">example@fylo.com</p>
       </div>
       </div>
-      <div class="footer-links">
+      <div class="footer-links flex flex-col gap-4 text-white font-raleway mb-7">
         <a href="#">About Us</a>
         <a href="#">Jobs</a>
         <a href="#">Press</a>
         <a href="#">Blog</a>
       </div>
-      <div class="footer-links2">
+      <div class="footer-links2 flex flex-col gap-4 text-white font-raleway">
         <a href="#">Contact Us</a>
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
       </div>
-      <div class="social-links">
-        <span></span>
+      <div class="social-links flex items-center justify-center gap-4 h-[10vh]">
+        <span><i class="fa-brands fa-facebook  rounded-full p-3 bg-white"></i></span>
+        <span><i class="fa-brands fa-twitter  rounded-full p-3 bg-white"></i></span>
+        <span><i class="fa-brands fa-instagram  rounded-full p-3 bg-white"></i></span>
       </div>
   </section>
 <!-- 
