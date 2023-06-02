@@ -41,19 +41,21 @@
       <form  class="email form mb-5 md:mb-0 md:w-[60%] ">
         <input type="text" aria-label="Email" placeholder="Enter your email" class="email-input  md:p-4 w-full  p-6 focus:outline-none  w-full">
       </form>
-      <button class="get-started md:w-[40%] font-opensans  py-4 bg-brightblue text-lightgrayishblue rounded-md   md:p-4">Get Started</button>
+      <button class="get-started md:hover:bg-blue-500  md:w-[40%] font-opensans  py-4 px-6 bg-brightblue text-lightgrayishblue rounded-md   md:p-4">Get Started</button>
     </div>
     </div>
     <div class="hero-img lg:w-[40%]">
       <img src="./images/illustration-1.svg" alt="image" class="font-opensans w-full mb-10 h-[50%] md:h-4/5">
     </div>
   </section>
-  <section class="secondpage py-4 px-[5%]" id="secondpage">
-    <div class="curve-img h-[15vh] w-full">
+  <section class="secondpage md:pb-20 py-4 px-[5%] relative md:flex md:flex-row-reverse md:items-center md:gap-[10%] md:justify-between" id="secondpage">
+    <div class="curve-img h-[15vh] w-full absolute -z-10">
+      <img src="./images/bg-curve-desktop.svg" alt="">
     </div>
-    <div class="productive-svg pb-10">
+    <div class="productive-svg pb-10 md:w-2/5 z-10">
       <img src="./images/illustration-2.svg" alt="be productive">
     </div>
+    <div class="secondary-text md:w-2/4">
     <div class="secondpage-text pt-10">
     <div class="productive-text font-raleway mb-8">
       <h2 class="text-verydarkblue text-center font-bold">Stay productive, wherever you are</h2>
@@ -68,12 +70,12 @@
         live collaboration. No email attachments required!
       </p>
     </div>
-    <div class="see-how-link pt-2 flex justify-center pb-2">
+    <div class="see-how-link pt-2 flex justify-center pb-2 md:justify-start">
       <a href="#" class="flex items-center justify-center gap-2 border-b-2 border-moderatecyan py-2 max-w-fit">
       <p class="text-moderatecyan text-sm">See how Fylo works</p><img src="./images/icon-arrow.svg" alt=""></a>
     </div>
     </div>
-    <div class="testimonial-card mt-8 w-[90%] m-auto shadow-lg p-6 mb-[60px]">
+    <div class="testimonial-card md:m-0 mt-8 w-[90%] md:w-3/5 m-auto shadow-lg p-6 mb-[60px]">
       <div class="quote-svg mb-4 ">
         <img src="./images/icon-quotes.svg" alt="testimonial" class="w-6">
       </div>
@@ -89,24 +91,30 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="early-access px-[10%] py-[10%] bg-desaturatedblue">
-    <div class="early-access-title mb-8">
-      <h1 class="text-xl text-lightgrayishblue font-raleway text-center font-bold">Get early access today</h1>
     </div>
-    <div class="early-desc text-center mb-8">
+  </section>
+  <section class="early-access md:flex md:[20%] md:justify-between px-[5%] py-[10%] bg-desaturatedblue">
+  <div class="early-text md:w-2/5">
+    <div class="early-access-title mb-8">
+      <h1 class="text-xl text-lightgrayishblue font-raleway md:text-left text-center font-bold">Get early access today</h1>
+    </div>
+    <div class="early-desc text-center md:text-left mb-8">
       <p class="text-lightgrayishblue text-base">It only takes a minute to sign up and our free starter tier is extremely generous.
       If you have any questions, our support team would be happy to help you.</p>
     </div>
-    <form action="" class="w-4/5 mx-auto mb-5">
-      <input type="text" aria-label="email" class="p-3 w-full" placeholder="email@example.com">
+    </div>
+    <div class="div-early-form md:w-2/4">
+    <form action="" class="w-4/5 mx-auto md:mx-0 mb-5">
+      <input type="email" aria-label="email" class="p-3  w-full" placeholder="email@example.com">
     </form>
-    <button class="w-4/5 mx-auto grid place-items-center text-white font-opensans p-3 bg-brightblue text-sm font-opensans">Get Started For Free</button>
+    <button class="w-4/5 md:w-2/5 mx-auto md:mx-0 md:place-self-start grid place-items-center md:place-items-center text-white font-opensans p-3 bg-brightblue text-sm font-opensans">Get Started For Free</button>
+    </div>
   </section>
   <section class="footer bg-verydarkblue p-[4rem] grid gap-5">
     <div class="logo mb-6" >
       <img src="./images/logo.svg" alt="">
     </div>
+    <div class="footer-all-link md:flex md:justify-between">
     <div class="contact-info">
       <div class="phone flex mb-5">
         <img src="./images/icon-phone.svg" alt="" class="pr-4">
@@ -132,6 +140,7 @@
         <span><i class="fa-brands fa-facebook  rounded-full p-3 bg-white"></i></span>
         <span><i class="fa-brands fa-twitter  rounded-full p-3 bg-white"></i></span>
         <span><i class="fa-brands fa-instagram  rounded-full p-3 bg-white"></i></span>
+      </div>
       </div>
   </section>
 <!-- 
